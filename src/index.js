@@ -8,6 +8,8 @@ import { Provider } from 'react-redux';
 import ToDos from './components/ToDos';
 import ToDoList from './components/ToDoList';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Nav from './components/Nav';
+
 
 /**
  * Redux Store
