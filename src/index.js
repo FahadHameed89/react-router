@@ -46,8 +46,8 @@ ReactDOM.render(
   <Provider store={store}>
     <h1>React-Redux To-Do List (TECHCareers)</h1>
     <Router>
-      <Nav />git a
-      <Route path="/" component={ToDoList} />
+      <Nav />
+      <Route path="/" component={ToDoList} exact />
       <Route path="/form" component={ToDos} />
     </Router>
   </Provider>,
